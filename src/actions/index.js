@@ -1,5 +1,12 @@
-const allActions = {
-	
+export const increment = () => {
+    return {
+        type: 'INCREMENT'
+    };
 };
 
-export default allActions;
+export const decrement = () => {
+    return {
+        type: 'DECREMENT'
+    };
+};
+
