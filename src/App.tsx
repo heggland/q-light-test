@@ -7,7 +7,7 @@ import reducers from "./reducers";
 
 function App() {
 
-  const store = createStore(
+  const store: any = createStore(
     reducers,
   );
 
