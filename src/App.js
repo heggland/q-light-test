@@ -17,7 +17,7 @@ function App() {
         <h1>React-Redux counter</h1>
       </header>
       <main>
-        <div class="counter">
+        <div className="counter">
           <Provider store={store}>
             <Counter />
           </Provider>
