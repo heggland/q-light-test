@@ -1,4 +1,4 @@
-const counter = (state: any, action: any) => {
+const counter = (state: number, action: any) => {
     if (typeof state === 'undefined') {
         return 0
     }

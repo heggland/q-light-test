@@ -2,9 +2,9 @@ import { useSelector, useDispatch } from "react-redux";
 import actions from "../actions";
 
 const Counter = () => {
-    const counter = useSelector((state: any) => state.counter);
+    const counter: number = useSelector((state: any) => state.counter);
 
-    const dispatch = useDispatch();
+    const dispatch: any = useDispatch();
 
     return (
         <>

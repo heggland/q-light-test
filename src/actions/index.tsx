@@ -1,6 +1,6 @@
 import { increment, decrement } from "./actions";
 
-const actions = {
+const actions: any = {
     increment,
     decrement
 };
